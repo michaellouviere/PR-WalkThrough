@@ -16,6 +16,7 @@ const AddEvent = () => {
 	return (
 		<div>
 			{entry}
+			<button onClick={setEntryHandler}></button>
 			<EventForm />
 		</div>
 	)
