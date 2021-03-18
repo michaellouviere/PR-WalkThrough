@@ -13,6 +13,10 @@ const AddEvent = () => {
 		setCalendarEntry('My Entry');
 	}
 
+	const newFunction = e => {
+		console.log('junk code')
+	}
+
 	return (
 		<div>
 			{calendarEntry}
