@@ -13,6 +13,14 @@ const AddEvent = () => {
 		setCalendarEntry('My Entry');
 	}
 
+	const newFunction = e => {
+		console.log('junk code')
+	}
+
+	const doesThisFunctionAppearAfterApproval = () => {
+		//well?
+	}
+
 	return (
 		<div>
 			{calendarEntry}
