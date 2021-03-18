@@ -2,20 +2,21 @@ import React, { useState } from 'react'
 import EventForm from './EventForm'
 
 const AddEvent = () => {
-	const [entry, setEntry] = useState(0);
-	const [unused, setUnused] = useState(0);
+	const [calendarEntry, setCalendarEntry] = useState(0);
+	const [unusedStateProp, setUnusedStateProp] = useState(0);
 
-	const createEvent = event => {
+	const createCalendarEvent = event => {
 		//do something
 	}
 
 	const setEntryHandler = e => {
-		setEntry('My Entry');
+		setCalendarEntry('My Entry');
 	}
 
 	return (
 		<div>
-			{entry}
+			{calendarEntry}
+			<button onClick={setEntryHandler}></button>
 			<EventForm />
 		</div>
 	)
