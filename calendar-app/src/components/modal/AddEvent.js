@@ -17,6 +17,10 @@ const AddEvent = () => {
 		console.log('junk code')
 	}
 
+	const doesThisFunctionAppearAfterApproval = () => {
+		//well?
+	}
+
 	return (
 		<div>
 			{calendarEntry}
